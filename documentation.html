@@ -15,6 +15,40 @@
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="PromoBanner">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        section {
+            padding-top: 60px;
+            /* Increase top padding */
+            padding-bottom: 60px;
+            /* Increase bottom padding */
+        }
+
+        .jumbotron {
+            padding-top: 80px;
+            /* Increase top padding */
+            padding-bottom: 80px;
+            /* Increase bottom padding */
+        }
+
+        .container {
+            padding-top: 10px;
+            /* Increase top padding */
+            padding-bottom: 10px;
+            /* Increase bottom padding */
+        }
+
+        @media (max-width: 767px) {
+
+            section,
+            .jumbotron,
+            .container {
+                padding-top: 20px;
+                /* Reduced top padding */
+                padding-bottom: 20px;
+                /* Reduced bottom padding */
+            }
+        }
+    </style>
 </head>
 
 <body>
@@ -81,7 +115,8 @@
         <ul>
             <li>Download the latest version of the PromoBanner module from the Releases section.</li>
             <li>Unzip the downloaded file and upload the <code>PromoBanner</code> folder to your WHMCS
-                <code>/modules/addons/</code> directory.</li>
+                <code>/modules/addons/</code> directory.
+            </li>
             <li>Log into your WHMCS admin area. Navigate to <strong>System Settings</strong> > <strong>Addon
                     Modules</strong>.</li>
             <li>Locate <code>PromoBanner</code> in the list of addon modules and click the "Activate" button.</li>
